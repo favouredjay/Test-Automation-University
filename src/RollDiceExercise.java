@@ -27,7 +27,8 @@ public class RollDiceExercise {
             }
             else {
                 int spacesToGo = lastSpace - currentSpace;
-                System.out.println("You are currently on " + currentSpace + " You need " + spacesToGo + " to go" );
+                System.out.println("You've rolled a " + currentSpace + " You need to roll " + spacesToGo + " to win" +
+                        "" );
             }
             Thread.sleep(1000);
             System.out.println();
